@@ -1,0 +1,34 @@
+.avatar {
+    width: 40px;
+    height: 40px;
+}
+.avatar div{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    background-color: grey;
+}
+
+table.runners tr td.avatar {
+    line-height: 30px;
+}
+td span.last_ran {
+    display: block;
+    font-size: 80%;
+    font-style: italic;
+    color: grey;
+}
+td.action {
+    width: 20%;
+}
+table#potential .btn.remove,
+table#attendees .btn.add,
+table.runners .btn.stop,
+table#attendees .started .btn.remove {
+    display: none;
+}
+table#attendees .started .btn.stop {
+    display: inline-block;
+}
